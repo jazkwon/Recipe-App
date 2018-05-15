@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ECE2D8",
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255, 255, 255, 0.6)",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0602D",
+          "borderRadius": 125,
+          "height": 250,
+          "justifyContent": "center",
+          "width": 250,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "Marker Felt",
+            "fontSize": 35,
+            "fontStyle": "italic",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Welcome to the Recipe App
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#E36428",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Powered By
+    </Text>
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 60,
+          "width": 165,
+        }
+      }
+    />
+  </View>
+</View>
+`;
